@@ -28,8 +28,8 @@ rolldicebtn.addEventListener('click' , function(){
         // display the dice and number 
         diceDisplay.style.display = 'block' ; 
         diceDisplay2.style.display = 'block' ; 
-        diceDisplay.src = 'dice-' + dice1 + '.png' ;
-        diceDisplay2.src = 'dice-' + dice2 + '.png' ;
+        diceDisplay.src = 'img/dice-' + dice1 + '.png' ;
+        diceDisplay2.src = 'img/dice-' + dice2 + '.png' ;
 
         if (dice1 > 1 && dice2 > 1) {
             //Add score
